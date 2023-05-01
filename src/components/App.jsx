@@ -5,11 +5,12 @@ import data from './Statistics/data.json';
 import { FriendList } from './Friends/FriendList';
 import friends from './Friends/friends.json';
 import { Transaction } from './Transactions/Transaction';
-import transactions from './Transactions/transactions.json'
+import transactions from './Transactions/transactions.json';
+import css from './app.module.css'
 
 export const App = () => {
   return (
-    <div>
+    <div className={css.container}>
       <Profile
         avatar={user.avatar}
         username={user.username}

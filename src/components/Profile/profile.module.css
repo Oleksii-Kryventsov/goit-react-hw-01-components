@@ -1,0 +1,37 @@
+.profile {
+    width: 400px;
+    margin: 24px auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    
+}
+
+.name {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+
+.stats {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    gap: 30px;
+}
+
+.label {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.quantity {
+    display: block;
+    color: rgb(233, 76, 37);
+    font-weight: 600;
+}
