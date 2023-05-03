@@ -5,6 +5,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    border: solid 1px rgb(68, 68, 68);
 }
 
 .item {

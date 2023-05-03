@@ -1,6 +1,10 @@
+
+
 table {
-    width: 400px;
+    border: solid 1px rgb(68, 68, 68);
+    width: 430px;
     margin: 24px auto;
+    padding: 15px;
 }
 
 th {

@@ -3,6 +3,7 @@
     margin: 24px auto;
     text-align: center;
     padding: 15px;
+    border: solid 1px rgb(68, 68, 68);
 }
 
 .statList {

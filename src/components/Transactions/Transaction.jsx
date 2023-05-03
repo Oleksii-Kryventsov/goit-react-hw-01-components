@@ -3,6 +3,7 @@ import css from './transactions.module.css'
 
 export const Transaction = ({ props }) => {
     return (
+        
         <table className={css.transactionHistory}>
             <thead>
                 <tr>
@@ -22,6 +23,7 @@ export const Transaction = ({ props }) => {
                 ))}
             </tbody>
         </table>
+        
     )
 };
 
